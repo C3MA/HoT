@@ -895,7 +895,7 @@
     "node-red-contrib-combine": {
         "name": "node-red-contrib-combine",
         "version": "1.8.1",
-        "local": false,
+        "local": true,
         "nodes": {
             "if": {
                 "name": "if",

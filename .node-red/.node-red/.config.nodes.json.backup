@@ -891,5 +891,82 @@
                 "file": "/home/pi/.node-red/node_modules/node-red-contrib-git-nodes/git-nodes-config.js"
             }
         }
+    },
+    "node-red-contrib-combine": {
+        "name": "node-red-contrib-combine",
+        "version": "1.8.1",
+        "local": false,
+        "nodes": {
+            "if": {
+                "name": "if",
+                "types": [
+                    "combine-if"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-combine",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-combine/nodes/combine-if.js"
+            },
+            "delta": {
+                "name": "delta",
+                "types": [
+                    "combine-delta"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-combine",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-combine/nodes/combine-delta.js"
+            },
+            "bangbang": {
+                "name": "bangbang",
+                "types": [
+                    "combine-bangbang"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-combine",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-combine/nodes/combine-bangbang.js"
+            },
+            "logic": {
+                "name": "logic",
+                "types": [
+                    "combine-logic"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-combine",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-combine/nodes/combine-logic.js"
+            },
+            "statistic": {
+                "name": "statistic",
+                "types": [
+                    "combine-statistic"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-combine",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-combine/nodes/combine-statistic.js"
+            },
+            "list": {
+                "name": "list",
+                "types": [
+                    "combine-list"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-combine",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-combine/nodes/combine-list.js"
+            },
+            "defer": {
+                "name": "defer",
+                "types": [
+                    "combine-defer"
+                ],
+                "enabled": true,
+                "local": true,
+                "module": "node-red-contrib-combine",
+                "file": "/home/pi/.node-red/node_modules/node-red-contrib-combine/nodes/combine-defer.js"
+            }
+        }
     }
 }

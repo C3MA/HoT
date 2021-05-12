@@ -15,7 +15,15 @@ IpAdresse auf 10.23.42.11 stellen, evtl etc/hosts datei im routerpi dazu anschau
 nginx installieren via apt
 im var/www auf der default index einen redirect auf nodered:1880 hinzufügen
 
+uhr muss funktionieren und gesynct sein sonst graphen kaputt und tag nacht erkennung
+
+settings.json anpassen der flows.json auf location von usb stick
+
+git config --global user.email "pi@nodered"
+git config --global user.name "Nodered"
+
 # Recovery
 Vom github backup die flows_nodered.json über import dialog reinladen, fehlende nodes via palette nachinstallieren
+
 
 
